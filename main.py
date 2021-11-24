@@ -6,14 +6,14 @@ from functools import reduce
 from itertools import count, cycle
 from sys import argv
 #№1
-# script, output_in_hours, rate_per_hour, bonus = argv
-#
-# print("функция расчета заработной платы сотрудника ", script)
-# print("выработка в часах ", output_in_hours)
-# print("ставка в час ", rate_per_hour)
-# print("Премия ", bonus)
-# wage = (int(output_in_hours) * int(rate_per_hour)) + int(bonus)
-# print("Ваша заработная плата ", wage)
+script, output_in_hours, rate_per_hour, bonus = argv
+
+print("функция расчета заработной платы сотрудника ", script)
+print("выработка в часах ", output_in_hours)
+print("ставка в час ", rate_per_hour)
+print("Премия ", bonus)
+wage = (int(output_in_hours) * int(rate_per_hour)) + int(bonus)
+print("Ваша заработная плата ", wage)
 
 
 #2
